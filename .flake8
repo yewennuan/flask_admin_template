@@ -1,0 +1,20 @@
+[flake8]
+ignore = E402
+exclude =
+    *migrations*,
+    # python related
+    *.pyc,
+    .git,
+    __pycache__,
+    *.conf,
+    *.md,
+    config*
+    *settings*
+    manage.py
+    *.thrift
+
+max-line-length=130
+format=pylint
+show_source = True
+statistics = True
+count = True
